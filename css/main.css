@@ -1,0 +1,501 @@
+body{
+    padding-top:70px;
+    height: auto;
+    width:100%;
+    
+}
+
+
+
+/**** Start Overriding Bootstrap*****/
+
+/* man navbar */
+.navbar{
+     min-height:70px; 
+}
+
+
+
+/* Active Link  */
+navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+    background-color: #E41B17;
+    outline:6px solid  #E41B17 
+}
+
+
+/* navbar link */
+.navbar-dark .navbar-nav .nav-link {
+    color: #bbb;
+    padding-top:20px;
+    padding-bottom:20px; 
+    font-size:16px;
+    margin-right:20px; 
+}
+
+/* brand name */
+.navbar-dark .navbar-brand {
+    color: #bbb;
+    font-size: 30px;
+    line-height: 40px;
+   
+}
+.navbar-dark .navbar-brand span
+{
+    color: #E41B17;
+}
+/* DropDawen Menu */
+.dropdown-menu{
+    background-color: #333;
+    border-top:3px solid #E41B17;
+    min-width: 200px;
+    left:0;
+    right:auto; 
+}
+.dropdown-item{
+    color: #fff;
+    padding:6px 20px;
+-webkit-transition:padding 0.5s ease-in-out;
+-moz-transition:padding 0.5s ease-in-out;
+-o-transition:padding 0.5s ease-in-out;
+-ms-transition:padding 0.5s ease-in-out;
+    transition:padding 0.5s ease-in-out;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+
+    background-color: #E41B17;
+    color:#fff; 
+    padding-left:25px; 
+}
+
+
+.dropdown-divider{
+    border-style:none;
+}
+
+/* navbar tggle */
+
+.navbar-toggler{
+ 
+   margin-top:18px; 
+}
+/* end navbar */
+
+/* Start Carsoule */
+.carousel-caption{
+
+    bottom:100px;
+    padding:0 20px; 
+}
+
+.carousel-indicators li{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    
+    
+}
+.carousel-indicators .active{
+  height:17px;
+  width:17px; 
+  background-color: #E41B17; 
+  transition:all 0.5s ease-in-out; 
+}
+/* end carsoule */
+
+/* Start Section About */
+
+.about{
+    padding:60px 0;
+    
+}
+
+.about .lead{
+    color:#888;
+    font-size:25px;
+    margin:15px 0 0; 
+}
+
+.about h1{
+    font-weight:bold;
+}
+
+.about h1 span{
+    color:#E41B17; 
+}
+/* End Section About */
+
+/* Start Section Features */
+.features{
+    background-color:#EEE;
+    padding:50px 0;
+    
+}
+.features .feat{
+    margin-bottom:30px;
+}
+.features h2{
+  
+    margin-bottom:50px;
+    color:#E41B17;
+}
+.features h4{
+    color:#aaa;
+    
+}
+.features .feat p{
+    line-height:2em; 
+}
+
+/* End Section Features */
+
+
+/* start Testimonials Section */
+  
+.testimonials{
+    padding:50px 0;
+}
+
+.testimonials h3{
+    font-weight:bold;
+    margin-bottom:20px; 
+}
+
+.testimonials .lead{
+    line-height:2em; 
+    margin-bottom:10px 
+}
+
+.testimonials span{
+    font-size:22px;
+    font-weight:bold;
+    color:#E41B17; 
+}
+
+.testimonials .carousel-inner{
+    min-height:160px;
+    
+}
+
+.testimonials .carousel-indicators{
+    position:static;
+    width:100%;
+    margin-left:auto;
+    padding-top: 20px
+}
+.testimonials .carousel-indicators li{
+    text-indent:0;
+    width:150px;
+    height:150px;
+    opacity: 0.6;
+    border:4px solid #fff; 
+    
+}
+
+.testimonials .carousel-indicators li.active{
+    
+    opacity:1;
+    background:none;
+    border:4px solid #E41B17; 
+}
+
+.testimonials .carousel-indicators li img {
+ 
+ width:150px;
+ height:150px; 
+ border-radius:50%; 
+    
+
+}
+
+/* End Testimonials Section */
+
+/* Start Section Price Table*/
+.price-table{
+    
+    background-color:#EEE;
+    padding:40px 0;
+    
+}
+
+.price-table h1{
+    
+    margin-bottom:40px;
+    
+}
+
+.price-table .price-box{
+    
+    background-color:#fff;
+    padding:10px;
+    border:1px solid #DDD;
+    border-radius:10px;
+    margin-bottom:15px; 
+}
+
+.price-table .price-box h2{
+    
+    margin:5px 0 15px;
+    
+}
+
+
+.price-table .price-box p{
+    
+    font-size:35px;
+    font-weight: bold;
+    color:#676767;
+    width: 100px;
+    height: 100px;
+    margin-left:60px; 
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    line-height:100px;
+  
+}
+
+.price-table .price-box ul{
+
+    line-height:2em;
+    font-size:18px; 
+    
+}
+
+.price-table .price-box a{
+    margin-bottom:5px; 
+}
+/* End Section Price Table*/
+
+
+
+/* Start Section Scribe */
+
+.scribe .form-inline{
+    
+    display:block
+}
+
+.scribe{
+    
+    padding:40px 0;
+    background: url(../images/46.jpg) fixed;
+}
+.scribe h1{
+    color: #888;
+    letter-spacing:10px;
+    margin-bottom:20px; 
+}
+.scribe p{
+    line-height: 1.8;
+    color:#fff;
+    font-size:20px;
+    
+}
+/* End Section Scribe */
+
+
+/* Start Section Static */
+
+.static{
+    
+     background: url(../images/46.jpg) fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height:300px; 
+    color:#fff;
+}
+
+
+.static .data{
+    
+   background-color:rgba(2,2,2,0.8); 
+    color: #B6B5B5;
+    min-height:300px;
+    padding:40px 0; 
+    
+}
+
+.static h2
+{
+    margin-bottom:40px; 
+}
+
+.static .stats{
+  
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    margin-bottom:30px;
+    
+    
+}
+
+.static .stats:hover{
+    
+    color: #fff;
+     
+    
+}
+
+
+.static p
+{
+    font-size: 60px;
+    font-weight:600;
+    margin-bottom:0;
+    
+}
+
+
+
+/* End Section Static */
+
+
+/* Start Section Our Skills */
+ 
+.our-skills
+{
+    padding:40px 0;
+    
+    
+}
+
+.our-skills h1
+{
+    margin-bottom: 60px;
+    
+}
+
+.our-skills .info p{
+    margin:0 60px; 
+}
+
+.our-skills  .progress
+{
+    margin:40px 0; 
+    font-size:16px; 
+    
+}
+
+.our-skills h2
+{
+    font-weight:bold;
+    margin-top:0; 
+}
+
+.our-skills .progress
+{
+    height:38px; 
+}
+
+.our-skills .progress-bar
+{
+    line-height: 38px;
+    font-size:18px; 
+    font-weight:bold;
+    text-align:left;
+    text-indent:10px; 
+}
+
+/* End Section Our Skills */
+
+
+
+
+/* Start Section Cntact Us */
+
+.contact-us
+{
+    
+    background:url('../images/w2.jpg') center center fixed; 
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height:300px; 
+}
+
+.contact-us .fildes
+{
+    background:rgba(185,122,87,0.2);
+    min-height:300px;
+    color:#ddd; 
+    padding:40px 0; 
+}
+
+
+/* End Section Cntact Us */
+
+
+/* Start Ultimate Footer */
+  
+  .footer
+{
+    background-color:#333;
+    color:#aaa;
+    padding:20px 0;
+}
+
+.footer a
+{
+    color:#aaa;
+    
+}
+
+.footer a:hover
+{
+    color:#fff;
+    
+}
+
+.footer h3
+{
+    color:#0895D1;
+    letter-spacing:1px;
+    margin:30px 0 20px;  
+    
+}
+
+.footer .three-columns
+{
+    overflow: hidden;
+    
+}
+
+.footer .three-columns li
+{
+    width:33.3333%;
+    float:left;
+    padding:5px 0; 
+}
+
+.footer .social-list
+{
+    
+    overflow:hidden;
+    margin:20px 0 10px;
+    
+}
+
+.footer .social-list li
+{
+    float:left;
+    margin-right:4px;
+    opacity:0.7;
+    filter:grayscale(opacity=70);
+     -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+}
+
+.footer .social-list li:hover
+{
+    opacity:1;
+    cursor:pointer;
+}
+/* End Ultimate Footer */
+/**** End Overriding Bootstrap*****/
